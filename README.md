@@ -1,27 +1,26 @@
 # Requirement Analysis in Software Development
 
-# What is Requirement Analysis?
+## 📌 What is Requirement Analysis?
 Requirement Analysis is the process of gathering, understanding, and documenting what a software system (or project) needs to do. It’s one of the first and most important phases in the Software Development Life Cycle (SDLC).
 
-# 🔑 Why is Requirement Analysis Important?
-1.Ensures the software solves the right problem.
+## 🔑 Why is Requirement Analysis Important?
+1. Ensures the software solves the right problem.  
+2. Reduces the chances of costly mistakes later in development.  
+3. Serves as a blueprint for designers, developers, and testers.  
 
-2.Reduces the chances of costly mistakes later in development.
+---
 
-3.Serves as a blueprint for designers, developers, and testers.
-
-# 🛠️ Key Activities in Requirement Analysis
-
-Requirement Analysis is a crucial phase in the Software Development Life Cycle (SDLC). It ensures that the system being developed truly meets the needs of users and stakeholders. Below are the five key activities involved:
+## 🛠️ Key Activities in Requirement Analysis
+Requirement Analysis ensures that the system being developed truly meets the needs of users and stakeholders. Below are the five key activities:
 
 ### 1. Requirement Gathering
-This is the process of collecting requirements from stakeholders, users, and other relevant sources. The main goal is to capture what the client or end-user expects from the system.  
+The process of collecting requirements from stakeholders, users, and other sources.  
 *Example:* Conducting interviews, surveys, or reviewing existing systems.
 
 ---
 
 ### 2. Requirement Elicitation
-Elicitation goes beyond gathering — it involves actively engaging with stakeholders to uncover hidden needs, clarify vague requirements, and explore alternatives.  
+Requirement Elicitation goes beyond gathering — it involves actively engaging with stakeholders to uncover hidden needs, clarify vague requirements, and explore alternatives.  
 *Example:* Workshops, brainstorming sessions, and use-case discussions to refine needs.
 
 ---
@@ -38,20 +37,19 @@ At this stage, requirements are analyzed for feasibility, completeness, and cons
 
 ---
 
-
 ### 5. Requirement Validation
 Validation ensures that the documented requirements truly reflect the needs of stakeholders. This step involves reviews, walkthroughs, or prototyping to confirm accuracy before moving into design and development.  
 *Example:* Sharing the SRS with stakeholders to confirm that nothing is missing or misunderstood.
 
-# Types of Requirements
+---
+
+## 🧩 Types of Requirements
 When developing a system, requirements are classified into **Functional** and **Non-functional**.  
 Functional requirements focus on *what the system should do*, while Non-functional requirements focus on *how the system should perform*.
 
----
-
-### Functional Requirements
+### 🔹 Functional Requirements
 **Definition:**  
-Functional requirements describe the specific tasks, services, and functions that the system must be able to perform. They are the **core features** that directly fulfill user needs.  
+Functional requirements describe the specific tasks, services, and functions that the system must perform.  
 
 **Examples for Booking Management Project:**  
 - The system must allow customers to create, view, update, and cancel bookings.  
@@ -62,9 +60,9 @@ Functional requirements describe the specific tasks, services, and functions tha
 
 ---
 
-### Non-functional Requirements
+### 🔹 Non-functional Requirements
 **Definition:**  
-Non-functional requirements define the **quality attributes** and constraints of the system. They do not describe features, but rather how well the system performs its functions.  
+Non-functional requirements define the **quality attributes** and constraints of the system.  
 
 **Examples for Booking Management Project:**  
 - The system should process booking requests within **2 seconds**.  
@@ -74,7 +72,8 @@ Non-functional requirements define the **quality attributes** and constraints of
 - The system must handle at least **1,000 concurrent users** without crashing.  
 
 ---
-## Use Case Diagrams
+
+## 🎭 Use Case Diagrams
 
 **Definition:**  
 A Use Case Diagram is a visual representation that shows the interactions between **actors** (users or external systems) and the **system** itself. It captures the **functional requirements** of the system in a simple and easy-to-understand way.  
@@ -87,9 +86,7 @@ A Use Case Diagram is a visual representation that shows the interactions betwee
 
 ---
 
-### Use Case Diagram for Booking Management System  
-
-Below is the use case diagram representing the **Booking Management System**.  
+### 📌 Use Case Diagram for Booking Management System
 
 **Actors:**  
 - **Customer**: Makes bookings, cancels bookings, views booking details, receives notifications.  
@@ -108,5 +105,6 @@ Below is the use case diagram representing the **Booking Management System**.
 
 ---
 
-<img width="1536" height="1024" alt="alx-booking-uc png" src="https://github.com/user-attachments/assets/df65be31-7a08-4044-a371-56c8d6078186" />
+📷 **Diagram:**  
 
+<img width="800" alt="Use Case Diagram for Booking Management System" src="https://github.com/user-attachments/assets/df65be31-7a08-4044-a371-56c8d6078186" />
