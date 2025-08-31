@@ -38,6 +38,39 @@ At this stage, requirements are analyzed for feasibility, completeness, and cons
 
 ---
 
+
 ### 5. Requirement Validation
 Validation ensures that the documented requirements truly reflect the needs of stakeholders. This step involves reviews, walkthroughs, or prototyping to confirm accuracy before moving into design and development.  
 *Example:* Sharing the SRS with stakeholders to confirm that nothing is missing or misunderstood.
+
+# Types of Requirements
+When developing a system, requirements are classified into **Functional** and **Non-functional**.  
+Functional requirements focus on *what the system should do*, while Non-functional requirements focus on *how the system should perform*.
+
+---
+
+### Functional Requirements
+**Definition:**  
+Functional requirements describe the specific tasks, services, and functions that the system must be able to perform. They are the **core features** that directly fulfill user needs.  
+
+**Examples for Booking Management Project:**  
+- The system must allow customers to create, view, update, and cancel bookings.  
+- The system must send confirmation notifications via email or SMS after a booking.  
+- The system must let administrators manage available rooms and schedules.  
+- The system must generate booking and payment reports for managers.  
+- The system must allow users to search for available rooms by date, category, and price.  
+
+---
+
+### Non-functional Requirements
+**Definition:**  
+Non-functional requirements define the **quality attributes** and constraints of the system. They do not describe features, but rather how well the system performs its functions.  
+
+**Examples for Booking Management Project:**  
+- The system should process booking requests within **2 seconds**.  
+- The system must be available **24/7** with at least **99.9% uptime**.  
+- The user interface must be mobile-responsive and accessible to people with disabilities.  
+- All sensitive user data must be encrypted and comply with **GDPR** regulations.  
+- The system must handle at least **1,000 concurrent users** without crashing.  
+
+---
