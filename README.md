@@ -107,4 +107,5 @@ A Use Case Diagram is a visual representation that shows the interactions betwee
 
 📷 **Diagram:**  
 
-<img width="800" alt="Use Case Diagram for Booking Management System" src="https://github.com/user-attachments/assets/df65be31-7a08-4044-a371-56c8d6078186" />
+![Use Case Diagram](images/alx-booking-uc.png)
+
